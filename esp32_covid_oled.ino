@@ -133,7 +133,7 @@ void httpget()
         active = Data[38].substring(1, Data[38].length() - 1);
         critical = Data[40].substring(1, Data[40].length() - 1);
 
-        t_unix_date = atol(updated.c_str());
+        t_unix_date = atol(updated.c_str())+25200;
       }
     }
     else {
