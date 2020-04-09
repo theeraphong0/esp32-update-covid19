@@ -1,6 +1,7 @@
-# esp32-update-covid19
-# Version 1.0 
-# TTGO ESP32 OLED BATTERRY 
+# esp32-update-covid19 
+  Version 1.0 
+# Hardware 
+  TTGO ESP32 OLED BATTERRY 
 # Need Library
 - SSD1306 Library https://github.com/ThingPulse/esp8266-oled-ssd1306
 - Time Library https://github.com/PaulStoffregen/Time
