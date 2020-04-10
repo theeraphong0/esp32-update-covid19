@@ -46,8 +46,8 @@ void loop() {
           Data[count] = payload.substring(lastIndex, payload.length());
         }
 
-        country = Data[3];
-        updated = Data[26].substring(1, Data[26].length() - 4);
+        updated = Data[2].substring(1, Data[2].length() - 4);
+        country = Data[5];
         cases = Data[28].substring(1, Data[28].length() - 1);
         todayCases = Data[30].substring(1, Data[30].length() - 1);
         deaths = Data[32].substring(1, Data[32].length() - 1);
