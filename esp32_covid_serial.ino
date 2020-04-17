@@ -23,7 +23,7 @@ void setup() {
 void loop() {
   if ((WiFi.status() == WL_CONNECTED)) { //Check the current connection status
     HTTPClient http;
-    http.begin("https://corona.lmao.ninja/countries/THA"); //Specify the URL
+    http.begin("https://corona.lmao.ninja/v2/countries/THA"); //Specify the URL
     int httpCode = http.GET();                             //Make the request
     if (httpCode > 0) { //Check for the returning code
       String payload = http.getString();
